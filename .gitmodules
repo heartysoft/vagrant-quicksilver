@@ -1,0 +1,21 @@
+[submodule "modules/quicksilver"]
+	path = modules/quicksilver
+	url = https://github.com/heartysoft/puppet-quicksilver
+[submodule "modules/dotnet"]
+	path = modules/dotnet
+	url = https://github.com/justinstoller/puppet-dotnet
+[submodule "modules/iis"]
+	path = modules/iis
+	url = https://github.com/opentable/puppet-iis
+[submodule "modules/powershell"]
+	path = modules/powershell
+	url = https://github.com/puppetlabs/puppetlabs-powershell
+[submodule "modules/reboot"]
+	path = modules/reboot
+	url = https://github.com/puppetlabs/puppetlabs-reboot
+[submodule "modules/windowsfeature"]
+	path = modules/windowsfeature
+	url = https://github.com/opentable/puppet-windowsfeature
+[submodule "modules/stdlib"]
+	path = modules/stdlib
+	url = https://github.com/puppetlabs/puppetlabs-stdlib
