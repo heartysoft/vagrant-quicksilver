@@ -1,5 +1,8 @@
 
 node 'win-2008r2-std' {
+     quicksilver::qs_baseline { 'qs':
+     }
+     ->
      quicksilver::web_baseline { 'qsweb':
          msdeploy_path => 'c:\vagrant\WebDeploy_amd64_en-US.msi'
      }
