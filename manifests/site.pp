@@ -18,7 +18,8 @@ node 'win-2008r2-std' {
       ip_address    => '*',
       #host_header   => 'www.mysite.com',
       app_pool      => 'MyWebAppForDeploymentAppPool'
-    }->
+    }
+    ->
     quicksilver::qs_website{ 'MyWebAppForDeployment':
         environment => "qa",
         publishroot => "c:\\vagrant",    
